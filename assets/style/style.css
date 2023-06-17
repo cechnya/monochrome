@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Manrope-Medium";
+    src: url('../fonts/Manrope-Medium.ttf');
+}
+@font-face {
+    font-family: "NeutralFace";
+    src: url('../fonts/NeutralFace.otf');
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    font-family: "NeutralFace";
+}
+
+p{
+    color: black;
+    font-family: "Manrope-Medium";
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+h1, h2{
+    font-family: "NeutralFace";
+    margin: 0;
+    font-size: 70px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "NeutralFace";
+    color: black;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 1900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-prof{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.language{
+    width: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-prof h2{
+    font-size: 18px;
+}
+.icon-profile{
+    width: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation{
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation a{
+    margin: 0 15px;
+}
+
+.main-text{
+    width: 85%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 50px;
+}
+.main-text h1{
+    font-size: 138px;
+}
+
+.main-text h3{
+    width: 20%;
+    font-size: 18px;
+    font-family: "Manrope-Medium";
+    padding-bottom: 10px;
+}
+
+.main-img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.main-img img{
+    margin: 0 10px;
+}
+
+/* for everyone */
+.for-everyone{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.for-everyone h2{
+    width: 64%;
+    font-size: 70px;
+    margin: 50px;
+}
+
+.blocks-for{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-for{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 15px;
+}
+
+/* new collection */
+.collection{
+    width: 100%;
+    background: url('../images/6.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.collection h2, .collection p{
+    color: white;
+    font-weight: normal;
+    width: 100%;
+}
+
+.collection p{
+    width: 40%;
+}
+
+.collection button{
+    font-size: 14px;
+    padding: 20px 40px;
+    border: 0;
+    margin: 30px 0;
+    margin-bottom: 500px;
+    transition: 0.5s;
+}
+
+.collection button:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    transition: 0.5s;
+}
+
+/* autumn - winter */
+.autumn-winter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.t-lefr{
+    width: 62%;
+}
+
+.t-right{
+    width: 56%;
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.photos{
+    display: flex;
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0 20px;
+}
+
+.two-photo p{
+    margin-bottom: 25px;
+}
